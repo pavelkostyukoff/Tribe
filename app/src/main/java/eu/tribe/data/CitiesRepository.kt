@@ -1,5 +1,8 @@
 package eu.tribe.data
 
-interface CitiesRepository {
+import eu.tribe.domain.model.CityEntity
+import kotlinx.coroutines.flow.Flow
 
+interface CitiesRepository {
+    fun getCities() : Flow<List<CityEntity>>
 }

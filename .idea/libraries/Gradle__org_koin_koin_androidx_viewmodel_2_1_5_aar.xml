@@ -4,12 +4,17 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/AndroidManifest.xml" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/2ecff4183d105c730654fb7815c2ba8d/transformed/jetified-koin-androidx-viewmodel-2.1.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.1.5/6b2903d60e4662c61d492d2622ac49f09c7ed698/koin-androidx-viewmodel-2.1.5-javadoc.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.1.5/6b2903d60e4662c61d492d2622ac49f09c7ed698/koin-androidx-viewmodel-2.1.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.1.5/b6e3d8418a63652be01047d1fd4c2707938925b9/koin-androidx-viewmodel-2.1.5-sources.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.1.5/b6e3d8418a63652be01047d1fd4c2707938925b9/koin-androidx-viewmodel-2.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

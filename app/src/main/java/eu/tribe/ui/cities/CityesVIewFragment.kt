@@ -1,4 +1,4 @@
-package eu.tribe.ui.fragment
+package eu.tribe.ui.cities
 
 import androidx.fragment.app.Fragment
 

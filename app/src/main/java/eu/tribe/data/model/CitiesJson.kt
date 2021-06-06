@@ -1,8 +1,8 @@
-package eu.tribe.domain.domain.model
+package eu.tribe.data.model
 
 import com.google.gson.annotations.SerializedName
 
-class CityEntity {
+class CitiesJson {
     @SerializedName("cities")
     val cities : List<CityJson> = emptyList()
 }

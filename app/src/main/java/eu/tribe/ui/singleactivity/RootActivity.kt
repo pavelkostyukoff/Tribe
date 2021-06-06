@@ -8,16 +8,13 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.gson.Gson
-import eu.tribe.domain.domain.model.CityEntity
-import eu.tribe.domain.domain.model.CityJson
+import eu.tribe.data.model.CitiesJson
+import eu.tribe.data.model.CityJson
+import eu.tribe.domain.model.CityEntity
 import eu.tribe.testapp.R
-import eu.tribe.ui.fragment.CitiesViewModel
+import eu.tribe.ui.cities.CitiesState
+import eu.tribe.ui.cities.CitiesViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import java.io.BufferedReader
-import java.io.InputStream
-import java.io.InputStreamReader
-import java.io.Reader
 
 
 class RootActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -32,32 +29,26 @@ class RootActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-        citiesViewModel.getCities()
     }
 
-    private fun renderUiMarkers() {
-        arrayOfPoints.map {
+    private fun renderUiMarkers(cities: List<CityEntity>) {
+        cities.map {
             val address = LatLng(it.lat, it.lng)
             map.addMarker(MarkerOptions().position(address).title(it.name))
             map.moveCamera(CameraUpdateFactory.newLatLngZoom(address, 12f))
         }
     }
 
-    private fun getMyPoints(): List<CityJson> {
-        val raw: InputStream = resources.openRawResource(R.raw.markers)
-        val rd: Reader = BufferedReader(InputStreamReader(raw))
-        val gson = Gson()
-        val test = gson.fromJson(rd, CityEntity::class.java)
-        return test.cities
-    }
 
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
-        renderUiMarkers()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
+        citiesViewModel.state.observe(this,{
+            when(it) {
+                is CitiesState.Success -> {
+                    renderUiMarkers(it.cities)
+                }
+            }
+        })
     }
 }
 
