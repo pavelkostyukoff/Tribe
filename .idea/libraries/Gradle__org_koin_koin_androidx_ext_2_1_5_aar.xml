@@ -10,11 +10,9 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.5/992ea4ed465763917cae6f6be99f077b91d2d26a/koin-androidx-ext-2.1.5-javadoc.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.5/992ea4ed465763917cae6f6be99f077b91d2d26a/koin-androidx-ext-2.1.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.5/5100d187b95bf81925a54be2adcb13dec854a963/koin-androidx-ext-2.1.5-sources.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.5/5100d187b95bf81925a54be2adcb13dec854a963/koin-androidx-ext-2.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
