@@ -7,6 +7,9 @@
       <root url="file://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/af89b92eb1ada22804587071ffb92438/transformed/jetified-koin-android-2.1.5/res" />
       <root url="jar://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/af89b92eb1ada22804587071ffb92438/transformed/jetified-koin-android-2.1.5/jars/classes.jar!/" />
       <root url="file://$APPLICATION_HOME_DIR$/gradle/caches/transforms-3/af89b92eb1ada22804587071ffb92438/transformed/jetified-koin-android-2.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a11bd46c342ba9eeea805f6071f80a/jetified-koin-android-2.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a11bd46c342ba9eeea805f6071f80a/jetified-koin-android-2.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15a11bd46c342ba9eeea805f6071f80a/jetified-koin-android-2.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android/2.1.5/15a654e630abbe39a40b00643f9e00f482b294ac/koin-android-2.1.5-javadoc.jar!/" />
